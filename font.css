@@ -1,0 +1,25 @@
+*{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body{
+    background: linear-gradient(to bottom right, 
+    rgb(233, 215, 208), 
+    rgb(215, 227, 214), 
+    rgb(216, 224, 232), 
+    rgb(236, 231, 209), 
+    rgb(255, 255, 255));
+
+}
+
+.font-primary{
+    font-size: 13px;
+    line-height: 16px;
+}
+
+input::placeholder {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Change font family */
+    color:black;
+    opacity: 1; 
+    font-weight: 200;
+}

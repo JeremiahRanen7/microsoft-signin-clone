@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign in to your account</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="input.css" />
+    <link rel="stylesheet" href="font.css" />
+    <link rel="shortcut icon" href="images/logo-ico.png" type="image/x-icon">
+</head>
+<body class="min-h-screen mt-40">
+    <div class="bg-white w-[28%] p-10 shadow-2xl flex flex-col justify-center items-start gap-5 mx-auto">
+        <img src="images/logo.png" alt="" class="w-28">
+        <h1 class="text-2xl font-semibold">Sign In</h1>
+        <input type="text" placeholder="Email, phone or Skype" class="border-t-0 border-l-0 border-r-0 border-b-1 outline-none border border-black w-full p-0.5">
+        <div>
+            <span class="font-primary">No account?</span>
+            <span class="font-primary text-sky-600 hover:underline hover:text-gray-600 cursor-pointer">Create one!</span>
+        </div>
+        <p class="font-primary text-sky-600 hover:underline hover:text-gray-600 cursor-pointer">Can’t access your account?</p>
+        <div class="buttons mb-2 self-end">
+            <button class="bg-zinc-300 px-10 py-1 hover:bg-zinc-400">Back</button>
+            <button class="bg-sky-700 px-10 py-1 text-white hover:bg-sky-800">Next</button>
+        </div>
+    </div>
+    <div class="bg-white w-[28%] shadow-2xl flex items-center gap-4 mx-auto mt-5 p-3 cursor-pointer hover:bg-zinc-200">
+        <i class="fa-solid fa-key -rotate-90 ml-5 text-2xl"></i>
+        <p class="font-extralight">Sign-in options</p>
+    </div>
+</body>
+</html>
